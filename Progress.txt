@@ -1,0 +1,14 @@
+Before pasting it, make sure these image/files actually exists, for example:
+
+Missing:
+
+//Education.jsx
+src/assets/educ.png
+
+
+//Herosection.jsx
+hero.png
+
+
+//Download
+//"/resume.pdf"
