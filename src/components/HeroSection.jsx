@@ -108,22 +108,18 @@ const HeroSection = () => {
           >
             Let's Talk
           </button>
-
-          <a
-            href="/myResume.pdf"
-            download="myResume.pdf"
-            className="
+          <a href={`${import.meta.env.BASE_URL}/resume.pdf`}
+          download
+          className="
               px-7 py-3 rounded-full
               border border-cyan-400
               text-cyan-300
               flex items-center justify-center gap-2
               hover:scale-105 transition-all
               backdrop-blur-md
-              bg-white/5
-            "
-          >
-            <Download size={18} />
-            Download Resume
+              bg-white/5">
+          <Download size={18} />
+          Download Resume
           </a>
         </div>
 
